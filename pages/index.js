@@ -1,3 +1,9 @@
+import Link from 'next/link';
+
 export default () => {
-  return <div>Hi</div>;
+  return (
+    <div>
+      <p>Home</p>
+    </div>
+  );
 };
