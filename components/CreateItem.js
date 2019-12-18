@@ -68,7 +68,6 @@ class CreateItem extends Component {
     // call the mutation
     const res = await createItem();
     // Redirect them to single item page
-    console.log(res);
     Router.push({
       pathname: '/item',
       query: { id: res.data.createItem.id }
